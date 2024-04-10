@@ -1,0 +1,16 @@
+Per a experimentar amb diferents codificacions (IO, BIO, BIOW...), fer servir precision recall
+
+Hyperparam --> BIO
+
+Per avaluar model --> Avaluació amb entitats (p,ex 0.5*Entitats_reconegudes_parcialment/entitats_esperades)
+
+
+No s'ha de cridar al postagger per cada posicio de una frase (es a dir, per cada paraula)
+
+S'ha de precalcular els postags, o definir una classe cash en que guardem els resultats anterior --> si la frase es la mateixa, utlittzem el tagger que ja tenim calculat, si no, calculem el tag per la frase en questio
+
+O bé, en comptes de tenir [('token1', 'label1'), ('token2', 'label2')], tenir en la primera posició de 'token1' --> ('token1', 'POS1')
+
+
+
+Per la part opcional: concloure que aquesta codificacio no es la correcta per aquesta tasca
