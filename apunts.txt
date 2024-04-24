@@ -26,3 +26,8 @@ MILLOR OPCIÓ: Representar entitats com a (index_inicial, index_final, etiqueta)
 
 
 Hauriem de tenir una F1 de 0.65 amb les features per defecte. I arribar a una 0.75 aprox amb la funcio millorada
+
+Veure quin es l'efecte de cada una de les features functions de la funcio get_features.
+L'objectiu no ha de ser simplement millorar aquesta funcio al maxim
+
+Afegir capitalitzacio, prefixos, sufixos... a partir dels tokens com a baseline
