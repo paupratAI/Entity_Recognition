@@ -14,3 +14,12 @@ O bé, en comptes de tenir [('token1', 'label1'), ('token2', 'label2')], tenir e
 
 
 Per la part opcional: concloure que aquesta codificacio no es la correcta per aquesta tasca
+
+
+No vol l'avaluació en termes de BIO. Només s'utilitza per optimitzar hiperparam
+(index_inicial-index_final, classe)
+Convertir aquestes tuples a sets
+
+Calcular Precision Recall d'entitats senceres --> comparar sets (interseccions i diferencies)
+
+MILLOR OPCIÓ: Representar entitats com a (index_inicial, index_final, etiqueta)
