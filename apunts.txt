@@ -23,3 +23,6 @@ Convertir aquestes tuples a sets
 Calcular Precision Recall d'entitats senceres --> comparar sets (interseccions i diferencies)
 
 MILLOR OPCIÓ: Representar entitats com a (index_inicial, index_final, etiqueta)
+
+
+Hauriem de tenir una F1 de 0.65 amb les features per defecte. I arribar a una 0.75 aprox amb la funcio millorada
