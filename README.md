@@ -59,16 +59,3 @@ Extends BIO by adding 'W' for single-word entities.
 ## Real Text Execution
 Tested models on real texts in Spanish and Dutch, successfully recognizing entities with some misclassifications.
 
-## Usage
-
-1. Clone the repository.
-2. Install required packages.
-3. Place text files in the `data` folder.
-4. Use provided functions to tokenize, tag, and evaluate the text.
-
-## Future Improvements
-
-1. Enhance entity type classification.
-2. Optimize feature selection for different languages.
-3. Expand training data for better generalization.
-
